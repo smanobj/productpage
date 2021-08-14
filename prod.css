@@ -1,0 +1,146 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: azure;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+}
+
+.outbod {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    margin-top: 100px;
+}
+
+.bod1 {
+    width: 35%;
+    height: 750px;
+    background-color: #e8d6c8;
+    z-index: -1;
+}
+
+.bod2 {
+    width: 65%;
+    height: 750px;
+    background-color: #214545;
+    z-index: -1;
+}
+
+.inbod {
+    width: 90%;
+    height: 550px;
+    background-color:#e8d6c8;
+    margin: -390px 5% 0 5%;
+    border-radius: 5px;
+    box-shadow: 10px 10px 20px 1px rgba(0, 0, 0, 0.8);
+}
+
+header {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.head {
+    color: #214545;
+    font-size: 1.2em;
+    margin-left: 70px;
+    padding-top: 14px;
+}
+
+
+nav {
+  width: 100%; 
+  margin-left:20%;
+  font-size: 1em;
+  float: left;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+li a {
+    text-decoration: none;
+    color: gray;
+}
+
+a {
+    display: flex;
+    padding: 14px 16px;
+    float: left;
+}
+
+input {
+    position: relative;
+    width: 120px;
+    height: 30px;
+    margin:25px 0px 0 5%;
+}
+
+.search1 {
+    width: 80px;
+    height: 40px;
+    margin: 25px 10% 0 0;
+
+}
+
+section {
+    margin: 150px 0 0 70px;
+    max-width: 100%;
+}
+
+.circle {
+    width: 320px;
+    height: 320px;
+    border-radius: 50%;
+    background-color: #214545;
+    margin: -300px 0 0 55%;
+}
+
+h1, p {
+    width: 40%;
+}
+
+h1 {
+    color: #214545;
+    font-size: 2.45em;
+    font-family:sans-serif;
+}
+
+.lady {
+    width: 400px;
+    height: 460px;
+    margin: -400px 0 0 54%;
+}
+
+button{
+    line-height: 20px;
+    border: none;
+    border-radius: 20px;
+    padding:10px;
+    color: #214545;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+.login {
+    margin-left: 10%;
+}
+
+.sabar {
+    background-color: #214545;
+    border-radius: 25px;
+    border: none;
+    color: white;
+    line-height: 20px;
+    padding: 10px;
+}
+
+.home:hover {
+    color: #214545;
+    font-weight: bold;
+    text-decoration-line: underline;
+}
